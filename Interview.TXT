@@ -1,4 +1,6 @@
 <-------------------GIT/GITHUB-------------------->
+
+
 1) To check the version (git --version)
 2) To check or set or edit or configure username or email (git config --global --edit user.name or user.email)
 3) To initialize local repository to a git repository (git init)
@@ -30,7 +32,11 @@ It takes all the commits of a branch and appends them to the commits of a new br
 28) git stash temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else,
 and then come back and re-apply them later on.
 29) To remove untracked files from working repository (git clean)
+
+
 <------------------------HTML/CSS-------------------------->
+
+
 1) Tags are the starting and ending parts of an HTML element. They begin with < symbol and end with > symbol.
 Whatever is written inside < and > are called tags.
 2) Elements consist of both the opening and closing tags as well as what’s inside those tags like the content.
@@ -50,7 +56,10 @@ Whatever is written inside < and > are called tags.
 One thing to note is that an element with position: absolute is positioned relative to its closest positioned ancestor. That means that the parent element has to have a position value other than position: static.
 16) Fixed position elements are similar to absolutely positioned elements. They are also removed from the normal flow of the document. But unlike absolutely positioned elements, they are always positioned relative to the <html> element.
 17) position: sticky is a mix of position: relative and position: fixed. It acts like a relatively positioned element until a certain scroll point and then it acts like a fixed element.
+
+
 <-------------------JavaScript-------------------->
+
 
 1)Data types supported are String, number, Boolean, Symbol, Null, Object, Undefined, BigInt.
 2)Closure gives access to outer functions scope from inner functions scope.
@@ -71,10 +80,10 @@ One thing to note is that an element with position: absolute is positioned relat
 17)Rest used to merge a list of arguments in an array. Example function sortArgs(...args) { return args.sort(); }
 18)Destructuring allows us to extract elements from array or object properties and store them in variables.
 19)Generators are functions but whenever they generate a value they do that by yield not by return keyword. The yield statement suspends the function’s execution and sends a value back to the caller, but retains enough state to enable the function to resume where it is left off. When resumed, the function continues execution immediately after the last yield run.
-20)
 
 
 <-------------------React/Redux-------------------->
+
 
 1)Alternative to CRA is Vite.
 2)Browsers can only read JS objects but not JSX. To transform JSX into JS objects, JSX transformers like Babel are used.
@@ -95,6 +104,8 @@ One thing to note is that an element with position: absolute is positioned relat
 
 
 <-------------------Node/Express-------------------->
+
+
 1)Nodejs is a runtime environment built on chrome V8 engine.
 2)Main features of node js are Asynchronous, non-blocking, single threaded and event driven.
 3)express.Router() is used to create a new Router object.
@@ -110,6 +121,8 @@ One thing to note is that an element with position: absolute is positioned relat
 
 
 <-------------------MongoDB/Mongoose-------------------->
+
+
 1)Database is a container of collections.
 2)Collection is a group of documents in DB same as tables in SQL.
 3)Document is a record inside of a collection same as a row in SQL. It is just a JSON object.
