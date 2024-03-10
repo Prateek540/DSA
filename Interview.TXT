@@ -45,14 +45,19 @@ Whatever is written inside < and > are called tags.
 5) CSS box model defines the layout and design of CSS elements. It consists of content, padding, border and margin.
 6) Classes are not unique and have multiple elements. Whereas ID is unique and it can be assigned to a single element.
 7) Block Elements are <div> and <p>. They usually start on a new line and can take space for an entire row or width.
-8) Inline elements are <a>, <span>, <strong>, and <img> tags. They don't start on a new line. However, they appear on the same line as the content and tags beside them.
+8) Inline elements are <a>, <span>, <strong>, and <img> tags. They don't start on a new line. 
+However, they appear on the same line as the content and tags beside them.
 9) Inline block elements have padding and margins and set height and width values. Though, they are similar to inline elements.
 10) CSS Grid Layout is a two-dimensional system along with rows and columns. It is used for large-sized layouts.
 11) Flexbox is a Grid layout with a one-dimensional system either within a row or a column. It is used for the components of an application.
 12) Five types of positioning are static, absolute, relative, fixed and sticky.
-13) Static is the default value for elements. The element is positioned according to the normal flow of the document. The left, right, top, bottom and z-index properties do not affect an element with position: static.
-14) Relative elements with position: relative remain in the normal flow of the document. But, unlike static elements, the left, right, top, bottom and z-index properties affect the position of the element.
-15) Elements with position: absolute are positioned relative to their parent elements. The element is removed from the normal document flow. The other elements will behave as if that element is not in the document. No space is created for the element in the page layout. The values of left, top, bottom and right determine the final position of the element.
+13) Static is the default value for elements. The element is positioned according to the normal flow of the document.
+ The left, right, top, bottom and z-index properties do not affect an element with position: static.
+14) Relative elements with position: relative remain in the normal flow of the document.
+ But, unlike static elements, the left, right, top, bottom and z-index properties affect the position of the element.
+15) Elements with position: absolute are positioned relative to their parent elements.
+ The element is removed from the normal document flow. The other elements will behave as if that element is not in the document.
+ No space is created for the element in the page layout. The values of left, top, bottom and right determine the final position of the element.
 One thing to note is that an element with position: absolute is positioned relative to its closest positioned ancestor. That means that the parent element has to have a position value other than position: static.
 16) Fixed position elements are similar to absolutely positioned elements. They are also removed from the normal flow of the document. But unlike absolutely positioned elements, they are always positioned relative to the <html> element.
 17) position: sticky is a mix of position: relative and position: fixed. It acts like a relatively positioned element until a certain scroll point and then it acts like a fixed element.
