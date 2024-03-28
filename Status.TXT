@@ -1,0 +1,18 @@
+------------DSA-----------
+18 done
+
+-----------Topics---------
+Html(IB)
+Css(IB)
+Js(IB)
+Git/Github
+React
+Node
+Mongodb
+Express
+Redux
+Mongoose
+Mysql
+Core java
+Oops
+Dbms

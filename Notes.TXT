@@ -85,7 +85,7 @@ One thing to note is that an element with position: absolute is positioned relat
 17)Rest used to merge a list of arguments in an array. Example function sortArgs(...args) { return args.sort(); }
 18)Destructuring allows us to extract elements from array or object properties and store them in variables.
 19)Generators are functions but whenever they generate a value they do that by yield not by return keyword. The yield statement suspends the function’s execution and sends a value back to the caller, but retains enough state to enable the function to resume where it is left off. When resumed, the function continues execution immediately after the last yield run.
-
+20)
 
 <-------------------React/Redux-------------------->
 
