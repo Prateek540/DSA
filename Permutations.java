@@ -1,6 +1,6 @@
 public class Permutations {
     public static void main(String[] args) {
-        Permutation("LILY", "");
+        Permutation("ABC", "");
     }
     
     public static void Permutation(String str, String comb) {
