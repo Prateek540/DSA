@@ -1,17 +1,4 @@
-----------------MERN SESSIONS--------------------
-
-Module 1 : JavaScript
-
-1. ES6 Module System
-2. Block Scope, Let and Const
-3. Functions(All Types)
-4. Spread and Rest Operators
-5. Destructuring
-6. Classes
-7. Inheritance
-8. Promises
-
-----------------------TOPICS---------------------------
+------------------------TOPICS---------------------------
 
 DSA(Kunal) 
 
