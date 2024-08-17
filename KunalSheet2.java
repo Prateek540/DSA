@@ -1,5 +1,4 @@
-import java.util.Scanner;
-
+import java.util.Scanner;//first java
 public class KunalSheet2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

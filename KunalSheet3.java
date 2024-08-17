@@ -1,4 +1,4 @@
-public class KunalSheet3 {
+public class KunalSheet3 {//loops
     public static void main(String[] args) {
         kaprekar(45);
     }
