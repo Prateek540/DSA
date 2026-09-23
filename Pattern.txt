@@ -1,0 +1,82 @@
+DSA
+│
+├── Arrays / Strings
+│   ├── Hashing
+│   ├── Two Pointers
+│   ├── Sliding Window
+│   ├── Prefix/Suffix
+│   ├── Difference Array
+│   ├── Sorting + Scanning
+│   ├── Binary Search
+│   ├── Kadane's Algorithm
+│   ├── Intervals
+│   └── Matrix
+│
+├── Linked List
+│   ├── Fast & Slow Pointers
+│   ├── Reversal
+│   ├── Dummy Node
+│   ├── Merge
+│   └── Linked List + Hashing
+│
+├── Stack / Queue
+│   ├── Monotonic Stack
+│   ├── Monotonic Queue
+│   ├── Expression / Parentheses
+│   ├── Simulation
+│   └── BFS
+│
+├── Heap / Priority Queue
+│   ├── Top K
+│   ├── Kth Element
+│   ├── Two Heaps
+│   ├── K-way Merge
+│   └── Scheduling
+│
+├── Trees
+│   ├── DFS
+│   ├── BFS
+│   ├── BST
+│   ├── Tree DP
+│   ├── Path Problems
+│   └── LCA
+│
+├── Trie
+│   ├── Prefix Search
+│   ├── Word Search
+│   └── Trie + Backtracking
+│
+├── Graphs
+│   ├── DFS
+│   ├── BFS
+│   ├── Topological Sort
+│   ├── Union Find
+│   ├── Shortest Path
+│   ├── MST
+│   └── Graph DP
+│
+├── Recursion / Backtracking
+│   ├── Subsets
+│   ├── Permutations
+│   ├── Combinations
+│   ├── Partitioning
+│   └── Constraint Search
+│
+├── Dynamic Programming
+│   ├── 1D DP
+│   ├── 2D DP
+│   ├── Knapsack
+│   ├── Grid DP
+│   ├── Subsequence DP
+│   ├── Interval DP
+│   ├── Tree DP
+│   ├── State Machine DP
+│   └── Bitmask DP
+│
+└── Advanced
+    ├── Bit Manipulation
+    ├── Segment Tree
+    ├── Fenwick Tree
+    ├── Sweep Line
+    ├── Computational Geometry
+    └── Advanced Graph Algorithms
