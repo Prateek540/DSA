@@ -1,82 +1,322 @@
+# COMPLETE DSA ROADMAP
+
 DSA
 │
-├── Arrays / Strings
+├── 1. Fundamentals
+│   ├── Time Complexity
+│   ├── Space Complexity
+│   ├── Big O Notation
+│   ├── Big Omega Notation
+│   ├── Big Theta Notation
+│   ├── Best / Average / Worst Case
+│   ├── Recursion Stack Space
+│   ├── Amortized Analysis
+│   ├── In-place vs Out-of-place Algorithms
+│   └── Stable vs Unstable Algorithms
+│
+├── 2. Arrays / Strings
+│   ├── Array Traversal
 │   ├── Hashing
+│   ├── Frequency Counting
 │   ├── Two Pointers
 │   ├── Sliding Window
-│   ├── Prefix/Suffix
+│   ├── Fixed-size Sliding Window
+│   ├── Variable-size Sliding Window
+│   ├── Prefix Sum
+│   ├── Suffix Sum
+│   ├── Prefix / Suffix Products
 │   ├── Difference Array
 │   ├── Sorting + Scanning
 │   ├── Binary Search
 │   ├── Kadane's Algorithm
 │   ├── Intervals
-│   └── Matrix
+│   ├── Matrix
+│   ├── Subarrays / Subsequences
+│   ├── String Manipulation
+│   ├── String Matching
+│   ├── Anagram Problems
+│   └── Palindrome Problems
 │
-├── Linked List
+├── 3. Searching Algorithms
+│   ├── Linear Search
+│   ├── Binary Search
+│   ├── Binary Search on Answer
+│   ├── Lower Bound / Upper Bound
+│   ├── First / Last Occurrence
+│   ├── Search in Rotated Sorted Array
+│   ├── Search in 2D Matrix
+│   ├── Peak Element Search
+│   ├── Integer Square Root
+│   └── Ternary Search
+│
+├── 4. Sorting Algorithms
+│   ├── Bubble Sort
+│   ├── Selection Sort
+│   ├── Insertion Sort
+│   ├── Merge Sort
+│   ├── Quick Sort
+│   ├── Heap Sort
+│   ├── Counting Sort
+│   ├── Radix Sort
+│   ├── Bucket Sort
+│   └── Custom Comparator Sorting
+│
+├── 5. Linked List
+│   ├── Singly Linked List
+│   ├── Doubly Linked List
+│   ├── Circular Linked List
 │   ├── Fast & Slow Pointers
 │   ├── Reversal
 │   ├── Dummy Node
 │   ├── Merge
-│   └── Linked List + Hashing
+│   ├── Cycle Detection
+│   ├── Find Middle Node
+│   ├── Remove Nth Node
+│   ├── Intersection of Linked Lists
+│   ├── Linked List + Hashing
+│   └── LRU Cache
 │
-├── Stack / Queue
+├── 6. Stack / Queue
+│   ├── Stack Implementation
+│   ├── Queue Implementation
+│   ├── Circular Queue
+│   ├── Deque
 │   ├── Monotonic Stack
 │   ├── Monotonic Queue
-│   ├── Expression / Parentheses
-│   ├── Simulation
+│   ├── Next Greater Element
+│   ├── Next Smaller Element
+│   ├── Expression Evaluation
+│   ├── Infix / Prefix / Postfix
+│   ├── Parentheses Problems
+│   ├── Stack-based Simulation
+│   ├── Queue-based Simulation
 │   └── BFS
 │
-├── Heap / Priority Queue
-│   ├── Top K
-│   ├── Kth Element
+├── 7. Heap / Priority Queue
+│   ├── Min Heap
+│   ├── Max Heap
+│   ├── Heap Implementation
+│   ├── Heapify
+│   ├── Top K Elements
+│   ├── Kth Largest / Smallest Element
 │   ├── Two Heaps
 │   ├── K-way Merge
-│   └── Scheduling
+│   ├── Merge K Sorted Lists
+│   ├── Scheduling Problems
+│   └── Median from Data Stream
 │
-├── Trees
+├── 8. Hashing
+│   ├── Hash Map
+│   ├── Hash Set
+│   ├── Frequency Map
+│   ├── Hash Collisions
+│   ├── Custom Hashing
+│   ├── Prefix Sum + Hashing
+│   ├── Two Sum Pattern
+│   └── Linked List + Hashing
+│
+├── 9. Trees
+│   ├── Binary Tree Fundamentals
+│   ├── Tree Traversals
+│   │   ├── Inorder
+│   │   ├── Preorder
+│   │   ├── Postorder
+│   │   └── Level Order
 │   ├── DFS
 │   ├── BFS
-│   ├── BST
+│   ├── Recursive Traversal
+│   ├── Iterative Traversal
+│   ├── Binary Search Tree (BST)
+│   ├── BST Search / Insert / Delete
+│   ├── Tree Height / Depth
+│   ├── Diameter of Tree
+│   ├── Balanced Binary Tree
 │   ├── Tree DP
 │   ├── Path Problems
-│   └── LCA
+│   ├── Root-to-Leaf Problems
+│   ├── Lowest Common Ancestor (LCA)
+│   ├── Serialize / Deserialize Tree
+│   ├── Construct Tree from Traversals
+│   └── Morris Traversal
 │
-├── Trie
+├── 10. Trie
+│   ├── Trie Implementation
 │   ├── Prefix Search
 │   ├── Word Search
-│   └── Trie + Backtracking
+│   ├── Word Dictionary
+│   ├── Longest Common Prefix
+│   ├── Trie + DFS
+│   ├── Trie + Backtracking
+│   └── Bitwise Trie
 │
-├── Graphs
+├── 11. Graphs
+│   ├── Graph Representation
+│   │   ├── Adjacency Matrix
+│   │   ├── Adjacency List
+│   │   └── Edge List
+│   ├── Directed / Undirected Graphs
+│   ├── Weighted / Unweighted Graphs
 │   ├── DFS
 │   ├── BFS
+│   ├── Connected Components
+│   ├── Cycle Detection
+│   ├── Bipartite Graph
 │   ├── Topological Sort
-│   ├── Union Find
-│   ├── Shortest Path
-│   ├── MST
-│   └── Graph DP
+│   ├── Kahn's Algorithm
+│   ├── Union Find (DSU)
+│   ├── Path Compression
+│   ├── Union by Rank / Size
+│   ├── Shortest Path Algorithms
+│   │   ├── BFS Shortest Path
+│   │   ├── Dijkstra's Algorithm
+│   │   ├── Bellman-Ford
+│   │   └── Floyd-Warshall
+│   ├── Minimum Spanning Tree (MST)
+│   │   ├── Kruskal's Algorithm
+│   │   └── Prim's Algorithm
+│   ├── Strongly Connected Components
+│   │   ├── Kosaraju's Algorithm
+│   │   └── Tarjan's Algorithm
+│   ├── Bridges and Articulation Points
+│   ├── Graph DP
+│   └── Grid-based Graph Problems
 │
-├── Recursion / Backtracking
+├── 12. Recursion
+│   ├── Basic Recursion
+│   ├── Base Cases
+│   ├── Recursive Calls
+│   ├── Multiple Recursion
+│   ├── Recursion Tree
+│   ├── Recurrence Relations
+│   ├── Tail Recursion
+│   ├── Stack Overflow Analysis
+│   ├── Recursion + Arrays
+│   ├── Recursion + Strings
+│   ├── Recursion + Linked Lists
+│   └── Recursion + Memoization
+│
+├── 13. Backtracking
 │   ├── Subsets
+│   ├── Subsets with Duplicates
 │   ├── Permutations
 │   ├── Combinations
+│   ├── Combination Sum
 │   ├── Partitioning
-│   └── Constraint Search
+│   ├── Palindrome Partitioning
+│   ├── Constraint Search
+│   ├── N-Queens
+│   ├── Sudoku Solver
+│   ├── Rat in a Maze
+│   ├── Word Search
+│   └── Pruning Techniques
 │
-├── Dynamic Programming
+├── 14. Divide and Conquer
+│   ├── Divide / Conquer / Combine
+│   ├── Merge Sort
+│   ├── Quick Sort
+│   ├── Binary Search
+│   ├── Inversion Count
+│   ├── Closest Pair of Points
+│   ├── Maximum Subarray
+│   └── Recurrence Analysis
+│
+├── 15. Greedy Algorithms
+│   ├── Greedy Fundamentals
+│   ├── Greedy + Sorting
+│   ├── Activity Selection
+│   ├── Interval Scheduling
+│   ├── Fractional Knapsack
+│   ├── Job Sequencing
+│   ├── Jump Game
+│   ├── Gas Station
+│   ├── Minimum Platforms
+│   ├── Huffman Coding
+│   ├── Meeting Rooms
+│   ├── Task Scheduling
+│   └── Greedy + Heap
+│
+├── 16. Dynamic Programming
+│   ├── DP Fundamentals
+│   ├── Memoization (Top-down)
+│   ├── Tabulation (Bottom-up)
+│   ├── Space Optimization
 │   ├── 1D DP
 │   ├── 2D DP
-│   ├── Knapsack
+│   ├── 3D DP
+│   ├── Knapsack DP
+│   │   ├── 0/1 Knapsack
+│   │   ├── Unbounded Knapsack
+│   │   ├── Subset Sum
+│   │   ├── Partition Equal Subset Sum
+│   │   └── Coin Change
 │   ├── Grid DP
 │   ├── Subsequence DP
+│   │   ├── Longest Common Subsequence
+│   │   ├── Longest Increasing Subsequence
+│   │   ├── Longest Palindromic Subsequence
+│   │   ├── Edit Distance
+│   │   └── Distinct Subsequences
+│   ├── String DP
 │   ├── Interval DP
+│   │   ├── Matrix Chain Multiplication
+│   │   ├── Burst Balloons
+│   │   └── Palindrome Partitioning DP
 │   ├── Tree DP
+│   ├── DP on Graphs
 │   ├── State Machine DP
-│   └── Bitmask DP
+│   ├── Bitmask DP
+│   ├── Digit DP
+│   └── DP with Binary Search
 │
-└── Advanced
-    ├── Bit Manipulation
+├── 17. Bit Manipulation
+│   ├── Binary Number System
+│   ├── AND / OR / XOR / NOT
+│   ├── Left Shift / Right Shift
+│   ├── Check / Set / Clear / Toggle Bits
+│   ├── Count Set Bits
+│   ├── Brian Kernighan's Algorithm
+│   ├── Power of Two
+│   ├── XOR Patterns
+│   ├── Bitmasking
+│   ├── Subsets using Bitmask
+│   └── Bitwise DP
+│
+├── 18. Mathematics / Number Theory
+│   ├── Prime Numbers
+│   ├── GCD / LCM
+│   ├── Euclidean Algorithm
+│   ├── Sieve of Eratosthenes
+│   ├── Prime Factorization
+│   ├── Modular Arithmetic
+│   ├── Modular Exponentiation
+│   ├── Fast Exponentiation
+│   ├── Combinatorics
+│   ├── Permutations / Combinations
+│   ├── Factorials
+│   ├── Fibonacci
+│   └── Number Theory
+│
+└── 19. Advanced Data Structures / Algorithms
     ├── Segment Tree
-    ├── Fenwick Tree
+    ├── Lazy Propagation
+    ├── Fenwick Tree (BIT)
+    ├── Sparse Table
+    ├── Disjoint Set Union (Advanced)
+    ├── Monotonic Data Structures
     ├── Sweep Line
+    ├── Line Sweep + Intervals
     ├── Computational Geometry
+    ├── Convex Hull
+    ├── KMP String Matching
+    ├── Rabin-Karp
+    ├── Z Algorithm
+    ├── Manacher's Algorithm
+    ├── Aho-Corasick
+    ├── Network Flow
+    ├── Max Flow / Min Cut
+    ├── Heavy-Light Decomposition
+    ├── Lowest Common Ancestor (Binary Lifting)
     └── Advanced Graph Algorithms
+```
+
+## END OF DSA ROADMAP

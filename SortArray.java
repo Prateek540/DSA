@@ -5,7 +5,7 @@ class SortArray {
         display(arr);
         // Bubble(arr);
         // Selection(arr);
-        Insertion(arr);
+        // Insertion(arr);
     }
 
     public static void display(int[] arr) {

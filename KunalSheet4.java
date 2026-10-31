@@ -12,7 +12,7 @@ public class KunalSheet4 {//functions
         if(n == 1 || n== 0)
         return false;
         else {
-            for(i=2;i<=n/2;i++) {
+            for(i=2;i<=Math.pow(n, 0.5);i++) {
                 if(n % i == 0)
                 k++;
             }
